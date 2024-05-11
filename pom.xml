@@ -1,14 +1,30 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <!--  do_not_remove: published-with-gradle-metadata  -->
+
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>com.volkodmobiletechnology</groupId>
-    <artifactId>Simple-Commons</artifactId>
+    <artifactId>Volkod-Commons</artifactId>
     <version>9b4460f52c</version>
-    <packaging>aar</packaging>
-    <name>VMT-max/Simple-Commons</name>
+    <packaging>jar</packaging>
+
+    <name>Volkod-Commons</name>
+    <url>http://maven.appache.org</url>
+
+    <distributionManagement>
+    <repository>
+        <id>github</id>
+        <name>GitHub vmt-max Appache Maven Packages</name>
+        <url>https://maven.pkg.github.com/volkodmobiletechnology/Volkod-Commons</url>
+    </repository>
+
+    </distributionManagement>
+
+    <name>volkodmobiletechnology/Volkod-Commons</name>
     <description>Some helper functions and shared resources used by the volkodmobiletechnology apps.</description>
     <url>https://www.volkodmobiletechnology.com</url>
     <inceptionYear>2024</inceptionYear>
+
     <licenses>
         <license>
             <name>GNU General Public License v3.0</name>
@@ -16,43 +32,53 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-    <developers>
-        <developer>
-            <id>volkodmobiletechnology</id>
-            <name>volkodmobiletechnology</name>
-            <email>office@volkodmobiletechnology.com</email>
-        </developer>
-    </developers>
+
+
+
     <scm>
         <connection>scm:git://github.com/VMT-max/Simple-Commons.git</connection>
-        <developerConnection>scm:git://github.com/VMT-max/Simple-Commons.git</developerConnection>
-        <url>git://github.com/VMT-max/Simple-Commons.git</url>
+        <developerConnection>scm:git://github.com/volkodmobiletechnology/Volkod-Commons.git</developerConnection>
+        <url>git://github.com/volkodmobiletechnology/Volkod-Commons.git</url>
     </scm>
+
+
+
+
     <dependencies>
+
         <dependency>
             <groupId>org.jetbrains.kotlinx</groupId>
             <artifactId>kotlinx-collections-immutable</artifactId>
             <version>0.3.6</version>
             <scope>compile</scope>
         </dependency>
+
+
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
             <version>2.12.5</version>
             <scope>compile</scope>
         </dependency>
+
+
         <dependency>
             <groupId>com.github.tibbi</groupId>
             <artifactId>RecyclerView-FastScroller</artifactId>
             <version>5a95285b1f</version>
             <scope>compile</scope>
         </dependency>
+
+
+
         <dependency>
             <groupId>com.github.tibbi</groupId>
             <artifactId>reprint</artifactId>
             <version>2cb206415d</version>
             <scope>compile</scope>
         </dependency>
+
+
         <dependency>
             <groupId>com.github.duolingo</groupId>
             <artifactId>rtl-viewpager</artifactId>
@@ -258,4 +284,7 @@
             <scope>runtime</scope>
         </dependency>
     </dependencies>
+
+
+
 </project>
