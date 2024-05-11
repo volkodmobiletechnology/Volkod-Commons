@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.volkodmobiletechnology</groupId>
+    <groupId>com.volkodmobiletechnology.commons</groupId>
     <artifactId>Volkod-Commons</artifactId>
     <version>9b4460f52c</version>
     <packaging>jar</packaging>
@@ -14,33 +14,13 @@
     <distributionManagement>
     <repository>
         <id>github</id>
-        <name>GitHub vmt-max Appache Maven Packages</name>
+        <name>GitHub Packages</name>
         <url>https://maven.pkg.github.com/volkodmobiletechnology/Volkod-Commons</url>
     </repository>
 
     </distributionManagement>
 
-    <name>volkodmobiletechnology/Volkod-Commons</name>
-    <description>Some helper functions and shared resources used by the volkodmobiletechnology apps.</description>
-    <url>https://www.volkodmobiletechnology.com</url>
-    <inceptionYear>2024</inceptionYear>
-
-    <licenses>
-        <license>
-            <name>GNU General Public License v3.0</name>
-            <url>https://api.github.com/licenses/gpl-3.0</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
-
-
-
-    <scm>
-        <connection>scm:git://github.com/VMT-max/Simple-Commons.git</connection>
-        <developerConnection>scm:git://github.com/volkodmobiletechnology/Volkod-Commons.git</developerConnection>
-        <url>git://github.com/volkodmobiletechnology/Volkod-Commons.git</url>
-    </scm>
-
+    
 
 
 
